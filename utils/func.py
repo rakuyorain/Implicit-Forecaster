@@ -39,24 +39,21 @@ def update_table(CFG):
     pred_lens = {
         0: [96, 192, 336, 720],
         1: [24, 36, 48, 60],
-        2: [12, 24, 48, 96],
-        3: [1, 2, 4, 8]
+        2: [12, 24, 48, 96]
     }
     with open(os.path.join(CFG.root_path, 'table.txt'), 'w') as file:
         file.write("|         Models         |" + ''.join([' ' * int((16 - len(model)) / 2) + model + ' ' * int((16 - len(model)) / 2 + 0.5) + '|' for model in models]) + '\n')
         file.write("|------------------------|" + ''.join(['-' * 16 + '|' for _ in models]) + '\n')
         file.write("| Data / Length / Metric |" + ''.join(["  MSE  --  MAE  " + '|' for _ in models]) + '\n')
         file.write("|------------------------|" + ''.join(['-' * 16 + '|' for _ in models]) + '\n')
-        for name, dataset in {'ETTh1': 'ETTh1', 'ETTh2': 'ETTh2', 'ETTm1': 'ETTm1', 'ETTm2': 'ETTm2', 'ECL': 'electricity', 'Traffic': 'traffic', 'Traffic-S&V': 'traffic-sv', 'Weather': 'weather', 'Exchange-Rate': 'exchange-rate', 'ILI': 'illness', 'PEMS-03': 'PEMS03', 'PEMS-04': 'PEMS04', 'PEMS-07': 'PEMS07', 'PEMS-08': 'PEMS08', 'Solar': 'solar', 'Oil': 'oil'}.items():
+        for name, dataset in {'ETTh1': 'ETTh1', 'ETTh2': 'ETTh2', 'ETTm1': 'ETTm1', 'ETTm2': 'ETTm2', 'ECL': 'electricity', 'Traffic': 'traffic', 'Weather': 'weather', 'Exchange-Rate': 'exchange-rate', 'ILI': 'illness', 'PEMS-03': 'PEMS03', 'PEMS-04': 'PEMS04', 'PEMS-07': 'PEMS07', 'PEMS-08': 'PEMS08', 'Solar': 'solar'}.items():
             r1s, r2s = {}, {}
             for model in models:
                 r1s[model], r2s[model] = [], []
             if dataset == 'illness':
                 i = 1
-            elif dataset == 'PEMS03' or dataset == 'PEMS04' or dataset == 'PEMS07' or dataset == 'PEMS08' or dataset == 'traffic-sv':
+            elif dataset == 'PEMS03' or dataset == 'PEMS04' or dataset == 'PEMS07' or dataset == 'PEMS08':
                 i = 2
-            elif dataset == 'oil':
-                i = 3
             else:
                 i = 0
             for i, pred_len in enumerate(pred_lens[i]):

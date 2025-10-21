@@ -4,7 +4,6 @@ bash scripts/ETT/TimeXer_ETTm1.sh
 bash scripts/ETT/TimeXer_ETTm2.sh
 bash scripts/ECL/TimeXer.sh
 bash scripts/Traffic/TimeXer.sh
-bash scripts/Traffic/TimeXer_SV.sh
 bash scripts/Weather/TimeXer.sh
 bash scripts/Exchange-Rate/TimeXer.sh
 bash scripts/ILI/TimeXer.sh
@@ -13,7 +12,6 @@ bash scripts/PEMS/TimeXer_PEMS04.sh
 bash scripts/PEMS/TimeXer_PEMS07.sh
 bash scripts/PEMS/TimeXer_PEMS08.sh
 bash scripts/Solar/TimeXer.sh
-bash scripts/Oil/TimeXer.sh
 
 bash scripts/ETT/SOFTS_ETTh1.sh
 bash scripts/ETT/SOFTS_ETTh2.sh
@@ -21,7 +19,6 @@ bash scripts/ETT/SOFTS_ETTm1.sh
 bash scripts/ETT/SOFTS_ETTm2.sh
 bash scripts/ECL/SOFTS.sh
 bash scripts/Traffic/SOFTS.sh
-bash scripts/Traffic/SOFTS_SV.sh
 bash scripts/Weather/SOFTS.sh
 bash scripts/Exchange-Rate/SOFTS.sh
 bash scripts/ILI/SOFTS.sh
@@ -30,7 +27,6 @@ bash scripts/PEMS/SOFTS_PEMS04.sh
 bash scripts/PEMS/SOFTS_PEMS07.sh
 bash scripts/PEMS/SOFTS_PEMS08.sh
 bash scripts/Solar/SOFTS.sh
-bash scripts/Oil/SOFTS.sh
 
 bash scripts/ETT/CycleNet_ETTh1.sh
 bash scripts/ETT/CycleNet_ETTh2.sh
@@ -38,7 +34,6 @@ bash scripts/ETT/CycleNet_ETTm1.sh
 bash scripts/ETT/CycleNet_ETTm2.sh
 bash scripts/ECL/CycleNet.sh
 bash scripts/Traffic/CycleNet.sh
-bash scripts/Traffic/CycleNet_SV.sh
 bash scripts/Weather/CycleNet.sh
 bash scripts/Exchange-Rate/CycleNet.sh
 bash scripts/ILI/CycleNet.sh
@@ -47,7 +42,6 @@ bash scripts/PEMS/CycleNet_PEMS04.sh
 bash scripts/PEMS/CycleNet_PEMS07.sh
 bash scripts/PEMS/CycleNet_PEMS08.sh
 bash scripts/Solar/CycleNet.sh
-bash scripts/Oil/CycleNet.sh
 
 bash scripts/ETT/IFT_ETTh1.sh
 bash scripts/ETT/IFT_ETTh2.sh
@@ -55,7 +49,6 @@ bash scripts/ETT/IFT_ETTm1.sh
 bash scripts/ETT/IFT_ETTm2.sh
 bash scripts/ECL/IFT.sh
 bash scripts/Traffic/IFT.sh
-bash scripts/Traffic/IFT_SV.sh
 bash scripts/Weather/IFT.sh
 bash scripts/Exchange-Rate/IFT.sh
 bash scripts/ILI/IFT.sh
@@ -64,7 +57,6 @@ bash scripts/PEMS/IFT_PEMS04.sh
 bash scripts/PEMS/IFT_PEMS07.sh
 bash scripts/PEMS/IFT_PEMS08.sh
 bash scripts/Solar/IFT.sh
-bash scripts/Oil/IFT.sh
 
 bash scripts/ETT/iTransformer_ETTh1.sh
 bash scripts/ETT/iTransformer_ETTh2.sh
@@ -72,7 +64,6 @@ bash scripts/ETT/iTransformer_ETTm1.sh
 bash scripts/ETT/iTransformer_ETTm2.sh
 bash scripts/ECL/iTransformer.sh
 bash scripts/Traffic/iTransformer.sh
-bash scripts/Traffic/iTransformer_SV.sh
 bash scripts/Weather/iTransformer.sh
 bash scripts/Exchange-Rate/iTransformer.sh
 bash scripts/ILI/iTransformer.sh
@@ -81,7 +72,6 @@ bash scripts/PEMS/iTransformer_PEMS04.sh
 bash scripts/PEMS/iTransformer_PEMS07.sh
 bash scripts/PEMS/iTransformer_PEMS08.sh
 bash scripts/Solar/iTransformer.sh
-bash scripts/Oil/iTransformer.sh
 
 bash scripts/ETT/TimeMixer_ETTh1.sh
 bash scripts/ETT/TimeMixer_ETTh2.sh
@@ -89,7 +79,6 @@ bash scripts/ETT/TimeMixer_ETTm1.sh
 bash scripts/ETT/TimeMixer_ETTm2.sh
 bash scripts/ECL/TimeMixer.sh
 bash scripts/Traffic/TimeMixer.sh
-bash scripts/Traffic/TimeMixer_SV.sh
 bash scripts/Weather/TimeMixer.sh
 bash scripts/Exchange-Rate/TimeMixer.sh
 bash scripts/ILI/TimeMixer.sh
@@ -98,7 +87,6 @@ bash scripts/PEMS/TimeMixer_PEMS04.sh
 bash scripts/PEMS/TimeMixer_PEMS07.sh
 bash scripts/PEMS/TimeMixer_PEMS08.sh
 bash scripts/Solar/TimeMixer.sh
-bash scripts/Oil/TimeMixer.sh
 
 bash scripts/ETT/FreTS_ETTh1.sh
 bash scripts/ETT/FreTS_ETTh2.sh
@@ -106,7 +94,6 @@ bash scripts/ETT/FreTS_ETTm1.sh
 bash scripts/ETT/FreTS_ETTm2.sh
 bash scripts/ECL/FreTS.sh
 bash scripts/Traffic/FreTS.sh
-bash scripts/Traffic/FreTS_SV.sh
 bash scripts/Weather/FreTS.sh
 bash scripts/Exchange-Rate/FreTS.sh
 bash scripts/ILI/FreTS.sh
@@ -115,7 +102,6 @@ bash scripts/PEMS/FreTS_PEMS04.sh
 bash scripts/PEMS/FreTS_PEMS07.sh
 bash scripts/PEMS/FreTS_PEMS08.sh
 bash scripts/Solar/FreTS.sh
-bash scripts/Oil/FreTS.sh
 
 bash scripts/ETT/SegRNN_ETTh1.sh
 bash scripts/ETT/SegRNN_ETTh2.sh
@@ -123,7 +109,6 @@ bash scripts/ETT/SegRNN_ETTm1.sh
 bash scripts/ETT/SegRNN_ETTm2.sh
 bash scripts/ECL/SegRNN.sh
 bash scripts/Traffic/SegRNN.sh
-bash scripts/Traffic/SegRNN_SV.sh
 bash scripts/Weather/SegRNN.sh
 bash scripts/Exchange-Rate/SegRNN.sh
 bash scripts/ILI/SegRNN.sh
@@ -132,7 +117,6 @@ bash scripts/PEMS/SegRNN_PEMS04.sh
 bash scripts/PEMS/SegRNN_PEMS07.sh
 bash scripts/PEMS/SegRNN_PEMS08.sh
 bash scripts/Solar/SegRNN.sh
-bash scripts/Oil/SegRNN.sh
 
 bash scripts/ETT/PatchTST_ETTh1.sh
 bash scripts/ETT/PatchTST_ETTh2.sh
@@ -140,7 +124,6 @@ bash scripts/ETT/PatchTST_ETTm1.sh
 bash scripts/ETT/PatchTST_ETTm2.sh
 bash scripts/ECL/PatchTST.sh
 bash scripts/Traffic/PatchTST.sh
-bash scripts/Traffic/PatchTST_SV.sh
 bash scripts/Weather/PatchTST.sh
 bash scripts/Exchange-Rate/PatchTST.sh
 bash scripts/ILI/PatchTST.sh
@@ -149,7 +132,6 @@ bash scripts/PEMS/PatchTST_PEMS04.sh
 bash scripts/PEMS/PatchTST_PEMS07.sh
 bash scripts/PEMS/PatchTST_PEMS08.sh
 bash scripts/Solar/PatchTST.sh
-bash scripts/Oil/PatchTST.sh
 
 bash scripts/ETT/Crossformer_ETTh1.sh
 bash scripts/ETT/Crossformer_ETTh2.sh
@@ -157,7 +139,6 @@ bash scripts/ETT/Crossformer_ETTm1.sh
 bash scripts/ETT/Crossformer_ETTm2.sh
 bash scripts/ECL/Crossformer.sh
 bash scripts/Traffic/Crossformer.sh
-bash scripts/Traffic/Crossformer_SV.sh
 bash scripts/Weather/Crossformer.sh
 bash scripts/Exchange-Rate/Crossformer.sh
 bash scripts/ILI/Crossformer.sh
@@ -166,7 +147,6 @@ bash scripts/PEMS/Crossformer_PEMS04.sh
 bash scripts/PEMS/Crossformer_PEMS07.sh
 bash scripts/PEMS/Crossformer_PEMS08.sh
 bash scripts/Solar/Crossformer.sh
-bash scripts/Oil/Crossformer.sh
 
 bash scripts/ETT/TimesNet_ETTh1.sh
 bash scripts/ETT/TimesNet_ETTh2.sh
@@ -174,7 +154,6 @@ bash scripts/ETT/TimesNet_ETTm1.sh
 bash scripts/ETT/TimesNet_ETTm2.sh
 bash scripts/ECL/TimesNet.sh
 bash scripts/Traffic/TimesNet.sh
-bash scripts/Traffic/TimesNet_SV.sh
 bash scripts/Weather/TimesNet.sh
 bash scripts/Exchange-Rate/TimesNet.sh
 bash scripts/ILI/TimesNet.sh
@@ -183,7 +162,6 @@ bash scripts/PEMS/TimesNet_PEMS04.sh
 bash scripts/PEMS/TimesNet_PEMS07.sh
 bash scripts/PEMS/TimesNet_PEMS08.sh
 bash scripts/Solar/TimesNet.sh
-bash scripts/Oil/TimesNet.sh
 
 bash scripts/ETT/DLinear_ETTh1.sh
 bash scripts/ETT/DLinear_ETTh2.sh
@@ -191,7 +169,6 @@ bash scripts/ETT/DLinear_ETTm1.sh
 bash scripts/ETT/DLinear_ETTm2.sh
 bash scripts/ECL/DLinear.sh
 bash scripts/Traffic/DLinear.sh
-bash scripts/Traffic/DLinear_SV.sh
 bash scripts/Weather/DLinear.sh
 bash scripts/Exchange-Rate/DLinear.sh
 bash scripts/ILI/DLinear.sh
@@ -200,7 +177,6 @@ bash scripts/PEMS/DLinear_PEMS04.sh
 bash scripts/PEMS/DLinear_PEMS07.sh
 bash scripts/PEMS/DLinear_PEMS08.sh
 bash scripts/Solar/DLinear.sh
-bash scripts/Oil/DLinear.sh
 
 bash scripts/ETT/FEDformer_ETTh1.sh
 bash scripts/ETT/FEDformer_ETTh2.sh
@@ -208,7 +184,6 @@ bash scripts/ETT/FEDformer_ETTm1.sh
 bash scripts/ETT/FEDformer_ETTm2.sh
 bash scripts/ECL/FEDformer.sh
 bash scripts/Traffic/FEDformer.sh
-bash scripts/Traffic/FEDformer_SV.sh
 bash scripts/Weather/FEDformer.sh
 bash scripts/Exchange-Rate/FEDformer.sh
 bash scripts/ILI/FEDformer.sh
@@ -217,7 +192,6 @@ bash scripts/PEMS/FEDformer_PEMS04.sh
 bash scripts/PEMS/FEDformer_PEMS07.sh
 bash scripts/PEMS/FEDformer_PEMS08.sh
 bash scripts/Solar/FEDformer.sh
-bash scripts/Oil/FEDformer.sh
 
 bash scripts/ETT/Autoformer_ETTh1.sh
 bash scripts/ETT/Autoformer_ETTh2.sh
@@ -225,7 +199,6 @@ bash scripts/ETT/Autoformer_ETTm1.sh
 bash scripts/ETT/Autoformer_ETTm2.sh
 bash scripts/ECL/Autoformer.sh
 bash scripts/Traffic/Autoformer.sh
-bash scripts/Traffic/Autoformer_SV.sh
 bash scripts/Weather/Autoformer.sh
 bash scripts/Exchange-Rate/Autoformer.sh
 bash scripts/ILI/Autoformer.sh
@@ -234,7 +207,6 @@ bash scripts/PEMS/Autoformer_PEMS04.sh
 bash scripts/PEMS/Autoformer_PEMS07.sh
 bash scripts/PEMS/Autoformer_PEMS08.sh
 bash scripts/Solar/Autoformer.sh
-bash scripts/Oil/Autoformer.sh
 
 bash scripts/ETT/Informer_ETTh1.sh
 bash scripts/ETT/Informer_ETTh2.sh
@@ -242,7 +214,6 @@ bash scripts/ETT/Informer_ETTm1.sh
 bash scripts/ETT/Informer_ETTm2.sh
 bash scripts/ECL/Informer.sh
 bash scripts/Traffic/Informer.sh
-bash scripts/Traffic/Informer_SV.sh
 bash scripts/Weather/Informer.sh
 bash scripts/Exchange-Rate/Informer.sh
 bash scripts/ILI/Informer.sh
@@ -251,4 +222,3 @@ bash scripts/PEMS/Informer_PEMS04.sh
 bash scripts/PEMS/Informer_PEMS07.sh
 bash scripts/PEMS/Informer_PEMS08.sh
 bash scripts/Solar/Informer.sh
-bash scripts/Oil/Informer.sh
